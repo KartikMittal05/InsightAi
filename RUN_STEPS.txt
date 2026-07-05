@@ -1,0 +1,55 @@
+Customer Analytics Project - Steps to Run
+
+Prerequisites:
+1. Install Python 3.8 or newer.
+2. Install Node.js 16 or newer.
+3. Make sure pip and npm are available in your terminal.
+
+Step 1: Install backend dependencies
+1. Open a terminal.
+2. Go to the backend folder:
+   cd customer-analytics\backend
+3. Install the Python packages:
+   pip install -r requirements.txt
+
+Step 2: Start the backend server
+1. In the backend folder, run:
+   python app.py
+2. Leave this terminal open.
+3. The backend should run at:
+   http://localhost:5000
+
+Step 3: Install frontend dependencies
+1. Open a second terminal.
+2. Go to the frontend folder:
+   cd customer-analytics\frontend
+3. Install the Node packages:
+   npm install
+
+Step 4: Start the frontend server
+1. In the frontend folder, run:
+   npm run dev
+2. Leave this terminal open.
+3. The frontend should run at:
+   http://localhost:5173
+
+Step 5: Use the application
+1. Open the frontend URL in your browser.
+2. Upload a CSV file or use the sample data provided in the project.
+3. Wait for the dashboard to load the analytics results.
+
+Optional checks
+1. Health check:
+   curl http://localhost:5000/health
+2. Upload sample data:
+   curl -X POST -F "file=@backend/sample_data.csv" http://localhost:5000/upload
+3. Get analysis:
+   curl http://localhost:5000/analyze
+
+Troubleshooting
+1. If port 5000 is busy, close the process using that port and start the backend again.
+2. If the frontend cannot connect, make sure the backend is running first.
+3. If file upload fails, use a CSV file with the required customer columns.
+
+Stop the project
+1. Press Ctrl+C in both terminals to stop the backend and frontend servers.

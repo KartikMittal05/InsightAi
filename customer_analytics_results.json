@@ -1,0 +1,37 @@
+{
+  "kpis": {
+    "total_revenue": 734989.23,
+    "total_customers": 1000,
+    "total_transactions": 1000,
+    "avg_order_value": 734.98923,
+    "revenue_per_customer": 734.98923
+  },
+  "rfm_segments": {
+    "segment_counts": {
+      "At-Risk": 507,
+      "Loyal": 293,
+      "Champions": 142,
+      "Low-Value": 58
+    },
+    "revenue_by_segment": {
+      "At-Risk": 6395190.09,
+      "Champions": 2080454.58,
+      "Low-Value": 599608.48,
+      "Loyal": 3464054.52
+    }
+  },
+  "churn_analysis": {
+    "total_customers_analyzed": 1000,
+    "high_risk_count": 291,
+    "avg_churn_probability": 43.28,
+    "risk_distribution": {
+      "Low": 709,
+      "High": 291
+    }
+  },
+  "anomalies": {
+    "total_anomalies": 100,
+    "high_severity_count": 0,
+    "anomaly_types": {}
+  }
+}
