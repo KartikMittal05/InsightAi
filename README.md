@@ -15,6 +15,8 @@ It also includes an **explainability layer** (SHAP) for global and per-customer 
 
 A walkthrough of the platform in action — data upload, RFM segmentation, churn prediction, recommendations, and the anomaly dashboard.
 
+https://github.com/user-attachments/assets/a4f8c0ee-be50-4d8c-af03-191489814a2a
+
 ## Tech Stack
 
 **Backend**
